@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"> <meta name="viewport" content="with=device-width, inital-scale=1.0">
+    <title>Kamioni kod Tubele - Katalog</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <script src="script1.js"></script>
+  </head>
+  <body>
+
+    <!------- Header ----->
+
+    <section class="header">
+      <nav>
+        <a href="page.html"><img src="slike/logo.jpg">
+          <div class="nav-links">
+            <ul>
+              <li><a href="page.html">Pocetna</a></li>
+              <li><a href="">Info</a></li>
+              <li><a href="">Kategorije</a></li>
+              <li><a href="">Kontakt</a></li>
+            </ul>
+          </div>
+      </nav>
+    </section>
+
+    <!------- Prodaja ---------->
+    <form class="check-cena" action="index.html" method="post">
+      <h3>Filtriraj</h3>
+      <br>
+      <input type="checkbox" name="cena" value="Volvo">Volvo<br>
+      <input type="checkbox" name="cena" value="Mercedes">Mercedes<br>
+      <input type="checkbox" name="cena" value="Scania">Scania<br>
+
+      <input type="button" onclick="myFunction()" name="search" value="Pretraga">
+      <input type="text" id="price" size="50">
+
+    </form>
+
+    <div class="Prodaja">
+      <div class="row">
+        <br><br>
+
+        <div class="mali-row">
+          <div class="col-1">
+            <img src="slike/volvo16.jpg" alt=" "style="width: 100%" id="getimg"> <input type="button" onclick="imgfun()" value="Interijer" class="in-btn">
+            <div class="container">
+              <h2>Volvo FH16-750</h2>
+              <br>
+              <p>Kada život na putu zahteva samo najbolje. Volvo FH16 vam donosi snagu koja vam je potrebna da biste efikasno radili i nivo udobnosti koji ga čini manje napornim. To je ikona delatnosti i pouzdana alatka, a sada je bolja nego ikada. Ako je potrebno, upravlja kombinovanom težinom do 325 tona.</p>
+              <br>
+              <p>Distributer: Volvo.cars</p>
+              <br>
+              <p><button class="button">Karakteristike</button></p>
+              <br>
+            </div>
+          </div>
+        </div>
+
+          <div class="mali-row">
+            <div class="col-1">
+              <img src="slike/merc.jpg" alt=""style="width: 100%" id="gettimg"> <input type="button" onclick="imgfuner()" value="Interijer" class="in-btn">
+              <div class="container">
+                <h2>Mercedes-Benz Actros</h2>
+                <br>
+                <p>Bez obzira da li se radi o efikasnosti, bezbednosti ili udobnosti, Mercedes-Benz Actros postavlja visoke standarde za kamione u sektorima prevoza na dugim relacijama i za veliki terete od 1996. godine. Poslednja generacija Actrosa, od 2018. godine, kontinuirano postavlja nove prekretnice sa mnoštvom inovacija na polju digitalizacije, umrežavanja i bezbednosti.</p>
+                <br>
+                <p>Distributer: Mercedes.cars</p>
+                <br>
+                <p><button class="button">Karakteristike</button></p>
+                <br>
+              </div>
+          </div>
+        </div>
+
+        <div class="mali-row">
+          <div class="col-1">
+            <img src="slike/scania.jpg" alt="" style="width: 100%" id="getttimg"> <input type="button" onclick="imgfunerr()" value="Interijer" class="in-btn">
+         <div class="container">
+           <h2>Scania R730</h2>
+           <br>
+           <p>Unapređeni 16-litarski agregat koji ispunjava Euro 6 norme o emisiji izduvnih gasova, isporučuje svojoj pogonskoj osovini respektabilnih 730 KS i to pri 1900 o/min. Monstruozni obrtni moment od 3500 Nm raspoloživ je u opsegu od 1000 do 1400 o/min.</p>
+           <br>
+           <p>Distributer: Scania.trucks</p>
+           <br>
+           <p><button class="button">Karakteristike</button></p>
+           <br>
+         </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+
+  </body>
+</html>
